@@ -1,0 +1,72 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f3f6fa;
+  color: #333;
+}
+
+header {
+  background: #1e88e5;
+  color: white;
+  padding: 2em;
+  text-align: center;
+}
+
+main {
+  padding: 2em;
+  max-width: 900px;
+  margin: auto;
+}
+
+h2 {
+  margin-top: 2em;
+  color: #1e88e5;
+}
+
+ul {
+  padding-left: 1.5em;
+}
+
+.screenshots {
+  display: flex;
+  gap: 1em;
+  margin-top: 1em;
+}
+
+.screenshot {
+  background: #e0e0e0;
+  height: 150px;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-style: italic;
+  color: #555;
+}
+
+.contacto button {
+  background: #1e88e5;
+  color: white;
+  border: none;
+  padding: 0.8em 1.5em;
+  font-size: 1em;
+  margin-top: 1em;
+  cursor: pointer;
+}
+
+.contacto button:hover {
+  background: #1565c0;
+}
+
+.hidden {
+  display: none;
+  margin-top: 1em;
+}
+
+footer {
+  text-align: center;
+  padding: 1em;
+  background: #e0e0e0;
+  margin-top: 3em;
+}
